@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { InicioComponent } from './pages/inicio/inicio.component';
 import { AmazonComponent } from './pages/amazon/amazon.component';
+import { QuiensoyComponent } from './pages/quiensoy/quiensoy.component';
 
 
 const routes: Routes = [
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path:"amazon",
     component:AmazonComponent
+  },
+  {
+    path:'quiensoy',
+    component:QuiensoyComponent
   }
 ];
 

@@ -7,6 +7,7 @@ import { HeaderComponent } from './template/header/header.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
 import { FooterComponent } from './template/footer/footer.component';
 import { AmazonComponent } from './pages/amazon/amazon.component';
+import { QuiensoyComponent } from './pages/quiensoy/quiensoy.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AmazonComponent } from './pages/amazon/amazon.component';
     HeaderComponent,
     InicioComponent,
     FooterComponent,
-    AmazonComponent
+    AmazonComponent,
+    QuiensoyComponent
   ],
   imports: [
     BrowserModule,
